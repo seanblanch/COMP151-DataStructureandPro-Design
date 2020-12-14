@@ -1,0 +1,126 @@
+Sean Blanchard
+4/9/2019
+Lab10 project 5 - Search2D
+----------------------------------------------------------------------------------------
+*** These should be successful searches ***
+Searching for 10
+checking 40
+checking 21
+checking 20
+checking 10
+10 found at [0, 0]
+Searching for 20
+checking 40
+checking 21
+checking 20
+20 found at [0, 1]
+Searching for 21
+checking 40
+checking 21
+21 found at [0, 2]
+Searching for 40
+checking 40
+40 found at [0, 3]
+Searching for 15
+checking 40
+checking 21
+checking 20
+checking 10
+checking 15
+15 found at [1, 0]
+Searching for 25
+checking 40
+checking 21
+checking 26
+checking 25
+25 found at [1, 1]
+Searching for 26
+checking 40
+checking 21
+checking 26
+26 found at [1, 2]
+Searching for 45
+checking 40
+checking 45
+45 found at [1, 3]
+Searching for 27
+checking 40
+checking 21
+checking 26
+checking 30
+checking 29
+checking 27
+27 found at [2, 0]
+Searching for 29
+checking 40
+checking 21
+checking 26
+checking 30
+checking 29
+29 found at [2, 1]
+Searching for 30
+checking 40
+checking 21
+checking 26
+checking 30
+30 found at [2, 2]
+Searching for 48
+checking 40
+checking 45
+checking 48
+48 found at [2, 3]
+Searching for 32
+checking 40
+checking 21
+checking 26
+checking 30
+checking 34
+checking 33
+checking 32
+32 found at [3, 0]
+Searching for 33
+checking 40
+checking 21
+checking 26
+checking 30
+checking 34
+checking 33
+33 found at [3, 1]
+Searching for 34
+checking 40
+checking 21
+checking 26
+checking 30
+checking 34
+34 found at [3, 2]
+Searching for 50
+checking 40
+checking 45
+checking 48
+checking 50
+50 found at [3, 3]
+
+*** These should be unsuccessful searches ***
+Searching for 28
+checking 40
+checking 21
+checking 26
+checking 30
+checking 29
+checking 27
+checking 32
+28 not found
+Searching for 5
+checking 40
+checking 21
+checking 20
+checking 10
+5 not found
+Searching for 100
+checking 40
+checking 45
+checking 48
+checking 50
+100 not found found
+
+Process finished with exit code 0

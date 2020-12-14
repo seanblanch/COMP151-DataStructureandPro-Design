@@ -1,0 +1,21 @@
+Sean Blanchard
+4/2/2019
+Lab09 Project 7 - ReverseLinkedList
+------------------------------------------------------------------------------------------
+*** Create a list ***
+The list contains: 15 25 35 45 55 65 75 85 95 
+
+*** Calling reverseLinkedListIteratively ***
+
+Expected result: 95 85 75 65 55 45 35 25 15
+The list contains: 95 85 75 65 55 45 35 25 15 
+===========================================================
+
+
+*** Calling reverseLinkedListRecursively ***
+
+Expected result: 15 25 35 45 55 65 75 85 95
+The list contains: 15 25 35 45 55 65 75 85 95 
+*** Done ***
+
+Process finished with exit code 0

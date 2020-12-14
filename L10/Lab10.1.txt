@@ -1,0 +1,74 @@
+Sean Blanchard
+4/9/2019
+Lab10 project 1 - ternarySearch
+----------------------------------------------------------------------------------------
+
+Accounts are:
+[0] 5658845
+[1] 8080152
+[2] 1005231
+[3] 4520125
+[4] 4562555
+[5] 6545231
+[6] 7895122
+[7] 5552012
+[8] 3852085
+[9] 8777541
+[10] 5050552
+[11] 7576651
+[12] 8451277
+[13] 7825877
+[14] 7881200
+[15] 1302850
+[16] 1250255
+[17] 4581002
+Sorted accounts are:
+[0] 1005231
+[1] 1250255
+[2] 1302850
+[3] 3852085
+[4] 4520125
+[5] 4562555
+[6] 4581002
+[7] 5050552
+[8] 5552012
+[9] 5658845
+[10] 6545231
+[11] 7576651
+[12] 7825877
+[13] 7881200
+[14] 7895122
+[15] 8080152
+[16] 8451277
+[17] 8777541
+
+ternarySearch: element 7881200 is found true
+   PASS
+
+ternarySearch: element 7881199 is found false
+   PASS
+
+ternarySearch: element 7881201 is found false
+   PASS
+
+ternarySearch: element 2222222 is found false
+   PASS
+
+ternarySearch: element 9999999 is found false
+   PASS
+
+ternarySearch: element 0000000 is found false
+   PASS
+
+ternarySearch: element 1111111 is found false
+   PASS
+
+ternarySearch: element 1005231 is found true
+   PASS
+
+ternarySearch: element 8777541 is found true
+   PASS
+
+*** Done ***
+
+Process finished with exit code 0

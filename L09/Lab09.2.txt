@@ -1,0 +1,42 @@
+Sean Blanchard
+4/2/2019
+Lab09 Project 2 - LinkedStackWithIterator
+------------------------------------------------------------------------------------------
+Creating a stack
+
+Creating a stackIterator
+
+Calling stackIterator.next())
+Exception caught "Illegal call too next(); iterator is below the bottom of the stack."
+
+Adding to stack Jim, Jess, Jill, Jane, Joe
+
+Accessing the top entry with iterator
+hasNext() returned false
+
+Resetting the iterator
+The stack contains (from top to bottom):
+Joe
+Jane
+Jill
+Jess
+Jim
+
+Adding to stack John
+peek() returns: John
+hasNext() returned false
+
+Resetting the iterator
+The stack contains (from top to bottom):
+John
+Joe
+Jane
+Jill
+Jess
+Jim
+
+Calling stackIterator.remove())
+Exception caught "remove operation is not supported by this stack iterator."
+
+
+Done.

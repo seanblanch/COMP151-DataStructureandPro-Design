@@ -1,0 +1,115 @@
+Sean Blanchard
+4/9/2019
+Lab10 project 4 - intervalSearch - with seed set to 7
+----------------------------------------------------------------------------------------
+
+How many elements in the array?
+17
+The sorted data is:
+[0]=6  [1]=10  [2]=15  [3]=19  [4]=19  [5]=23  [6]=31  [7]=40  [8]=40  [9]=44  [10]=44  [11]=46  [12]=54  [13]=55  [14]=60  [15]=62  [16]=63  
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+44
+Target list is [44]
+Smallest target is 44; largest target is 44
+Search on the smallest value
+	Left Boundary set to 9
+Search on the largest value
+	Left: 9 Middle: 12 Right: 16
+	Left: 9 Middle: 10 Right: 11
+	Right Boundary set to 10
+The interval is: (9, 10)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+19
+Target list is [19]
+Smallest target is 19; largest target is 19
+Search on the smallest value
+	Left Boundary set to 3
+Search on the largest value
+	Left: 3 Middle: 9 Right: 16
+	Left: 3 Middle: 5 Right: 8
+	Left: 3 Middle: 3 Right: 4
+	Right Boundary set to 4
+The interval is: (3, 4)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+40
+Target list is [40]
+Smallest target is 40; largest target is 40
+Search on the smallest value
+	Left Boundary set to 7
+Search on the largest value
+	Left: 7 Middle: 11 Right: 16
+	Left: 7 Middle: 8 Right: 10
+	Right Boundary set to 8
+The interval is: (7, 8)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+19 44
+Target list is [19, 44]
+Smallest target is 19; largest target is 44
+Search on the smallest value
+	Left Boundary set to 3
+Search on the largest value
+	Left: 3 Middle: 9 Right: 16
+	Right Boundary set to 10
+The interval is: (3, 10)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+20 41
+Target list is [20, 41]
+Smallest target is 20; largest target is 41
+Search on the smallest value
+	Left Boundary set to 4
+Search on the largest value
+	Left: 4 Middle: 10 Right: 16
+	Left: 4 Middle: 6 Right: 9
+	Left: 7 Middle: 8 Right: 9
+	Left: 9 Middle: 9 Right: 9
+	Right Boundary set to 9
+The interval is: (4, 9)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+1 2
+Target list is [1, 2]
+The interval is: (-1, -1)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+1 44
+Target list is [1, 44]
+Smallest target is 1; largest target is 44
+Search on the smallest value
+	Left Boundary set to -1
+Search on the largest value
+	Left: 0 Middle: 8 Right: 16
+	Left: 9 Middle: 12 Right: 16
+	Left: 9 Middle: 10 Right: 11
+	Right Boundary set to 10
+The interval is: (-1, 10)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+90 95
+Target list is [90, 95]
+The interval is: (17, 17)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+1 90
+Target list is [1, 90]
+Smallest target is 1; largest target is 90
+Search on the smallest value
+	Left Boundary set to -1
+Search on the largest value
+	Left: 0 Middle: 8 Right: 16
+	Left: 9 Middle: 12 Right: 16
+	Left: 13 Middle: 14 Right: 16
+	Left: 15 Middle: 15 Right: 16
+	Left: 16 Middle: 16 Right: 16
+	Right Boundary set to 17
+The interval is: (-1, 17)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+done
+
+*** Done ***
+
+Process finished with exit code 0

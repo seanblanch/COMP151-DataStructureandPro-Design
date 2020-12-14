@@ -1,0 +1,43 @@
+Sean Blanchard
+4/9/2019
+Lab10 project 2 - SortedListWithMode
+----------------------------------------------------------------------------------------
+
+---> mode is null; mode count is 0
+The mode of the empty list should be null, got: null
+
+The data has 1 element(s): 9 
+---> mode is 9; mode count is 1
+The mode should be 9, got: 9
+
+The data has 2 element(s): 9 13 
+---> mode is 9; mode count is 1
+The mode should be 9, got: 9
+
+The data has 3 element(s): 9 13 13 
+---> mode is 13; mode count is 1
+The mode should be 13, got: 13
+
+The data has 3 element(s): 9 9 13 
+---> mode is 9; mode count is 2
+The mode should be 9, got: 9
+
+The data has 10 element(s): 0 1 2 3 4 5 6 7 8 9 
+---> mode is 0; mode count is 1
+The mode should be 0, got: 0
+
+The data has 55 element(s): 0 1 1 2 2 2 3 3 3 3 4 4 4 4 4 5 5 5 5 5 5 6 6 6 6 6 6 6 7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 
+---> mode is 9; mode count is 9
+The mode should be 9, got: 9
+
+The data has 133 element(s): 0 1 1 2 2 2 3 3 3 3 4 4 4 4 4 5 5 5 5 5 5 6 6 6 6 6 6 6 7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 10 10 11 11 11 12 12 12 12 13 13 13 13 13 14 14 14 14 14 14 15 15 15 15 15 15 15 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 20 20 20 20 20 20 20 20 20 20 20 20 
+---> mode is 20; mode count is 11
+The mode should be 20, got: 20
+
+The data has 147 element(s): 0 1 1 2 2 2 3 3 3 3 4 4 4 4 4 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 10 10 11 11 11 12 12 12 12 13 13 13 13 13 14 14 14 14 14 14 15 15 15 15 15 15 15 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 20 20 20 20 20 20 20 20 20 20 20 20 
+---> mode is 6; mode count is 21
+The mode should be 6, got: 6
+
+*** Done ***
+
+Process finished with exit code 0

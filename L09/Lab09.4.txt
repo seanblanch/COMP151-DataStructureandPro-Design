@@ -1,0 +1,55 @@
+Sean Blanchard
+4/2/2019
+Lab09 Project 4 - Sequence
+------------------------------------------------------------------------------------------
+The seq1 is [a, b, c]
+==> Please enter a sequence of words on a single line, (words should be separated by spaces), or stop.
+b c a c b a
+Is [a, b, c] a subsequence of [b, c, a, c, b, a]: false
+==> Please enter a sequence of words on a single line, (words should be separated by spaces), or stop.
+a c b
+Is [a, b, c] a subsequence of [a, c, b]: false
+==> Please enter a sequence of words on a single line, (words should be separated by spaces), or stop.
+a b b a
+Is [a, b, c] a subsequence of [a, b, b, a]: false
+==> Please enter a sequence of words on a single line, (words should be separated by spaces), or stop.
+a b b c
+Is [a, b, c] a subsequence of [a, b, b, c]: true
+==> Please enter a sequence of words on a single line, (words should be separated by spaces), or stop.
+stop
+
+*** RUNNING AUTOMATED TESTCASES ***
+Testing if [a, b, c] is a subsequence of []: 
+    Not a subsequence - Passes
+Testing if [] is a subsequence of [a, b, c]: 
+**** Fails - s2 should be a subsequence of s1
+Testing if [a, b, c] is a subsequence of [a, c, b]: 
+    Not a subsequence - Passes
+Testing if [a, c, b] is a subsequence of [a, b, c]: 
+    Not a subsequence - Passes
+Testing if [a, b, c] is a subsequence of [a, c, b, c]: 
+    A subsequence - Passes
+Testing if [a, c, b, c] is a subsequence of [a, b, c]: 
+    Not a subsequence - Passes
+Testing if [a, b, c, a, b, c] is a subsequence of [a, c, b, c]: 
+    Not a subsequence - Passes
+Testing if [a, c, b, c] is a subsequence of [a, b, c, a, b, c]: 
+    A subsequence - Passes
+Testing if [a, b, a, c] is a subsequence of [a, b, a, c]: 
+    A subsequence - Passes
+Testing if [a, b, a, c] is a subsequence of [a, b, a, c, x]: 
+    A subsequence - Passes
+Testing if [a, b, c] is a subsequence of [a, b, d]: 
+    Not a subsequence - Passes
+Testing if [a, b, d] is a subsequence of [a, b, c]: 
+    Not a subsequence - Passes
+Testing if [a, b, c] is a subsequence of [x, y, a]: 
+    Not a subsequence - Passes
+Testing if [x, y, a] is a subsequence of [a, b, c]: 
+    Not a subsequence - Passes
+Testing if [a, b, c] is a subsequence of [a, b, a, a, b, c]: 
+    A subsequence - Passes
+Testing if [a, b, a, a, b, c] is a subsequence of [a, b, c]: 
+    Not a subsequence - Passes
+
+Process finished with exit code 0

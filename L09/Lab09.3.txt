@@ -1,0 +1,32 @@
+Sean Blanchard
+4/2/2019
+Lab09 Project 3 - PrimesAndComposites
+------------------------------------------------------------------------------------------
+Enter the maximum value to test for primes
+It should be an integer value greater than or equal to 2.
+17
+
+ ====> Constructing list of candidates up to 17
+The candidates list is [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+==> Found the prime 2
+====> Found the composite 4
+====> Found the composite 6
+====> Found the composite 8
+====> Found the composite 10
+====> Found the composite 12
+====> Found the composite 14
+====> Found the composite 16
+==> Found the prime 3
+====> Found the composite 9
+====> Found the composite 15
+==> Found the prime 5
+==> Found the prime 7
+==> Found the prime 11
+==> Found the prime 13
+==> Found the prime 17
+The primes list is 
+2 3 5 7 11 13 17 
+The composites list is 
+4 6 8 10 12 14 16 9 15 
+
+Process finished with exit code 0
