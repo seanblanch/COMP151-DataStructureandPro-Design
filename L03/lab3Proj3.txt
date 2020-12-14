@@ -1,0 +1,244 @@
+Name: Sean Blanchard
+Date: 2/12/2019
+Class: COMP 151
+Project 3
+
+RUNNING TEST CASES
+
+***Testing display method***
+emptyBag:
+The bag is empty.
+
+bag1:
+B C A B A 
+There are 5 element(s) in the bag.
+
+bag2:
+The bag is empty.
+
+After removing the first element "B" from bag1, it contains
+C A B A 
+There are 4 element(s) in the bag.
+
+***Testing equals method***
+bag1:
+C A B A 
+There are 4 element(s) in the bag.
+Are bag1 and emptyBag equal? --> NO
+Are emptyBag and emptyBag equal? --> YES
+Are emptyBag and bag1 equal? --> NO
+
+bag2:
+X B A C A 
+There are 5 element(s) in the bag.
+Are bag1 and bag2 equal? --> NO
+
+Removed "X" from bag2.
+B A C A 
+There are 4 element(s) in the bag.
+Are bag1 and bag2 equal now? --> YES
+
+Created bagCopyOfBag1:
+C A B A 
+There are 4 element(s) in the bag.
+Are bag1 and bagCopyOfBag1 equal? --> YES
+
+Created bagCopyOfBag1PlusOne:
+C A B A D 
+There are 5 element(s) in the bag.
+Are bagCopyOfBag1PlusOne and bagCopyOfBag1 equal? --> NO
+Are bagCopyOfBag1 and bagCopyOfBag1PlusOne equal? --> NO
+
+***Testing getMax method***
+The largest item in emptyBag is: null
+
+bag1: 
+A C A X B A A 
+There are 7 element(s) in the bag.
+The largest item in bag1 is: X
+
+bag2: 
+D C C A B B A 
+There are 7 element(s) in the bag.
+The largest item in bag2 is: D
+
+***Testing union, removeMin, intersection, difference and subset methods***
+bag1: 
+A C A X B A A 
+There are 7 element(s) in the bag.
+bag2: 
+D C C A B B A 
+There are 7 element(s) in the bag.
+
+***Testing union method***
+The union of bag1 and bag2 is 
+A B B A C C D A A B X A C A 
+There are 14 element(s) in the bag.
+
+The union of bag1 and emptyBag is 
+A A B X A C A 
+There are 7 element(s) in the bag.
+
+The union of emptyBag and bag1 is 
+A A B X A C A 
+There are 7 element(s) in the bag.
+
+***Testing removeMin method***
+Removed the smallest element "A" from the union bag; the current content is:
+A B X A C A 
+There are 6 element(s) in the bag.
+Removed the smallest element "A" from the union bag; the current content is:
+B X A C A 
+There are 5 element(s) in the bag.
+Removed the smallest element "A" from the union bag; the current content is:
+X B C A 
+There are 4 element(s) in the bag.
+Removed the smallest element "A" from the union bag; the current content is:
+B C X 
+There are 3 element(s) in the bag.
+Removed the smallest element "B" from the union bag; the current content is:
+C X 
+There are 2 element(s) in the bag.
+Removed the smallest element "C" from the union bag; the current content is:
+X 
+There are 1 element(s) in the bag.
+Removed the smallest element "X" from the union bag; the current content is:
+The bag is empty.
+
+The union bag is empty and removeMin returned null - CORRECT
+
+***Testing intersection method***
+The intersection of bag1 and bag2 is 
+B A C A 
+There are 4 element(s) in the bag.
+
+The intersection of bag1 and emptyBag is 
+The bag is empty.
+
+The intersection of emptyBag and bag1 is 
+The bag is empty.
+
+***Testing difference method***
+The difference of bag1 and bag2 is 
+X A A 
+There are 3 element(s) in the bag.
+
+The difference of bag2 and bag1 is 
+B C D 
+There are 3 element(s) in the bag.
+
+The difference of bag1 and emptyBag is 
+A A B X A C A 
+There are 7 element(s) in the bag.
+
+The difference of emptyBag and bag1 is 
+The bag is empty.
+
+***Testing replace method***
+Bag1 contains:
+A C A X B A A 
+There are 7 element(s) in the bag.
+Replaced "A" with "X"
+Now bag1 contains:
+X C A X B A A 
+There are 7 element(s) in the bag.
+
+Calling replace on emptyBag
+The bag is empty and replace returned null - CORRECT
+Now emptyBag contains:
+The bag is empty.
+
+***Testing removeEvery method***
+Bag1 contains:
+X C A X B A A 
+There are 7 element(s) in the bag.
+Removing all "Z"
+After removing all "Z" bag1 contains:
+X C A X B A A 
+There are 7 element(s) in the bag.
+
+Removing all "X"
+After removing all "X" bag1 contains:
+A C B A A 
+There are 5 element(s) in the bag.
+
+After adding two "A" bag1 contains:
+A A A C B A A 
+There are 7 element(s) in the bag.
+Removing all "A"
+After removing all "A" bag1 contains:
+C B 
+There are 2 element(s) in the bag.
+
+Removing all "B"
+After removing all "B" bag1 contains:
+C 
+There are 1 element(s) in the bag.
+
+After removing all "C" emptyBag contains:
+The bag is empty.
+
+*** TESTING moveFirstToEnd ***
+List before:
+A B C 
+There are 3 element(s) in the bag.
+List after:
+B C A 
+There are 3 element(s) in the bag.
+
+Calling moveFirstToEnd three times
+List before:
+A C B 
+There are 3 element(s) in the bag.
+List after:
+A C B 
+There are 3 element(s) in the bag.
+
+Calling moveFirstToEnd on a list of length 0
+List before:
+The bag is empty.
+List after:
+The bag is empty.
+
+Calling moveFirstToEnd on a list of length 1
+List before:
+B 
+There are 1 element(s) in the bag.
+List after:
+B 
+There are 1 element(s) in the bag.
+
+Calling moveFirstToEnd on a list of length 2
+List before:
+B A 
+There are 2 element(s) in the bag.
+List after:
+A B 
+There are 2 element(s) in the bag.
+
+
+*** TESTING findMiddleElementInOnePass ***
+The bag is empty.
+middle: null
+A 
+There are 1 element(s) in the bag.
+middle: A
+
+B A 
+There are 2 element(s) in the bag.
+middle: B
+
+F E D C B A 
+There are 6 element(s) in the bag.
+middle: D
+
+G F E D C B A 
+There are 7 element(s) in the bag.
+middle: D
+
+
+*** TESTING checkIfLoopExists ***
+testBag does not have a loop - CORRECT
+bagWithLoop does have a loop - CORRECT
+
+Process finished with exit code 0

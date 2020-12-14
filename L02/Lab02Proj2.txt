@@ -1,0 +1,72 @@
+Sean Blanchard
+Lab 02 Proj 2 Sample run
+
+-> Creating aSet with the secondary constructor - capacity of 8
+--> Adding elements from inputData to aSet
+The set contains 4 String(s); capacity is 8
+A B C D 
+
+--> Clearing aSet
+The set is empty; with the capacity 8
+--> aSet isEmpty returns 
+true
+--> The number of elements in aSet is 
+0
+
+--> Creating set1 with default constructor
+--> set1 initially empty, capacity should be 3:
+The set is empty; with the capacity 3
+
+--> Adding elements to set1
+--> set1 after adding elements, capacity should be 3:
+The set contains 3 String(s); capacity is 3
+A B C 
+
+--> Adding elements to set1
+
+--> set1 after adding more elements which should have triggered resizing, and the capacity should be 12:
+The set contains 10 String(s); capacity is 12
+A B C V T U W X Y Z 
+
+--> set1 contains "A":
+true
+--> set1 contains "E":
+false
+
+--> Removing "B" from set1
+--> After removing "B" from set1:
+The set contains 9 String(s); capacity is 12
+A Z C V T U W X Y 
+--> Removing random element from set1
+--> After removing "Y" from set1:
+The set contains 8 String(s); capacity is 12
+A Z C V T U W X 
+
+--> Trying to remove "Q" from set1
+--> After trying to remove non-existent element "Q" from set1:
+The set contains 8 String(s); capacity is 12
+A Z C V T U W X 
+
+--> Adding 4 elements to set1
+--> After adding 4 elements to set1:
+The set contains 12 String(s); capacity is 12
+A Z C V T U W X K L M N 
+--> Adding 1 element to set1
+--> After adding 1 more element to set1:
+The set contains 13 String(s); capacity is 24
+A Z C V T U W X K L M N O 
+
+--> Creating set2 with the secondary constructor that takes an array as input
+The set contains 4 String(s); capacity is 8
+A B C D 
+--> Adding more elements to set2
+--> set2 after adding:
+The set contains 8 String(s); capacity is 8
+A B C D E F G H 
+
+Trying to add null entry
+--> set2 after adding:
+The set contains 8 String(s); capacity is 8
+A B C D E F G H 
+
+Process finished with exit code 0
