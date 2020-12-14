@@ -1,0 +1,40 @@
+Sean Blanchard
+3/5/2019
+Lab06
+UniqueAnagrams.java
+
+---------------------------------------------------------------------------------------------------------------
+
+Run #1:
+
+Please enter a word
+car
+Possible anagrams = [car, cra, acr, arc, rca, rac]
+Expected unique and sorted anagrams = [acr, arc, car, cra, rac, rca]
+
+Computed unique and sorted anagrams = [acr, arc, car, cra, rac, rca]
+
+Process finished with exit code 0
+
+Run #2:
+
+
+Please enter a word
+abc
+Possible anagrams = [abc, acb, bac, bca, cab, cba]
+Expected unique and sorted anagrams = [abc, acb, bac, bca, cab, cba]
+
+Computed unique and sorted anagrams = [abc, acb, bac, bca, cab, cba]
+
+Process finished with exit code 0
+
+Run #3:
+
+Please enter a word
+abba
+Possible anagrams = [abba, abab, abba, abab, aabb, aabb, baba, baab, bbaa, bbaa, baab, baba, baba, baab, bbaa, bbaa, baab, baba, aabb, aabb, abab, abba, abab, abba]
+Expected unique and sorted anagrams = [aabb, abab, abba, baab, baba, bbaa]
+
+Computed unique and sorted anagrams = [aabb, abab, abba, baab, baba, bbaa]
+
+Process finished with exit code 0

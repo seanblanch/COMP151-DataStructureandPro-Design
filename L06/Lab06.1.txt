@@ -1,0 +1,168 @@
+Sean Blanchard
+3/5/2019
+Lab06
+SortArray.java
+
+---------------------------------------------------------------------------------------------------------------
+
+What size arrays should be used?
+   It should be an integer value greater than or equal to 1.
+17
+
+*** ANALYZING SELECTION SORT ***
+---> ARRAY IN RANDOM ORDER
+[ 40 90 93 54 30 65 79 33 82 6 14 12 99 6 18 97 88 ]
+Number of comparisons --> 136
+Number of moves --> 26
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN ASCENDING ORDER
+The array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+Number of comparisons --> 136
+Number of moves --> 0
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN DESCENDING ORDER
+The array is: 
+[ 99 97 93 90 88 82 79 65 54 40 33 30 18 14 12 6 6 ]
+Number of comparisons --> 136
+Number of moves --> 18
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+
+*** ANALYZING INSERTION SORT ***
+---> ARRAY IN RANDOM ORDER
+[ 40 90 93 54 30 65 79 33 82 6 14 12 99 6 18 97 88 ]
+Number of comparisons --> 87
+Number of moves --> 89
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN ASCENDING ORDER
+The array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+Number of comparisons --> 16
+Number of moves --> 16
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN DESCENDING ORDER
+The array is: 
+[ 99 97 93 90 88 82 79 65 54 40 33 30 18 14 12 6 6 ]
+Number of comparisons --> 136
+Number of moves --> 151
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+
+*** ANALYZING SHELL SORT ***
+---> ARRAY IN RANDOM ORDER
+[ 40 90 93 54 30 65 79 33 82 6 14 12 99 6 18 97 88 ]
+Number of comparisons --> 70
+Number of moves --> 78
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN ASCENDING ORDER
+The array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+Number of comparisons --> 53
+Number of moves --> 53
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN DESCENDING ORDER
+The array is: 
+[ 99 97 93 90 88 82 79 65 54 40 33 30 18 14 12 6 6 ]
+Number of comparisons --> 60
+Number of moves --> 73
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+
+*** ANALYZING IMPROVED SHELL SORT ***
+---> ARRAY IN RANDOM ORDER
+[ 40 90 93 54 30 65 79 33 82 6 14 12 99 6 18 97 88 ]
+Number of comparisons --> 66
+Number of moves --> 73
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN ASCENDING ORDER
+The array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+Number of comparisons --> 50
+Number of moves --> 50
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN DESCENDING ORDER
+The array is: 
+[ 99 97 93 90 88 82 79 65 54 40 33 30 18 14 12 6 6 ]
+Number of comparisons --> 65
+Number of moves --> 77
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+
+*** ANALYZING BUBBLE SORT ***
+---> ARRAY IN RANDOM ORDER
+[ 40 90 93 54 30 65 79 33 82 6 14 12 99 6 18 97 88 ]
+Number of comparisons --> 136
+Number of moves --> 146
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN ASCENDING ORDER
+The array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+Number of comparisons --> 136
+Number of moves --> 0
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN DESCENDING ORDER
+The array is: 
+[ 99 97 93 90 88 82 79 65 54 40 33 30 18 14 12 6 6 ]
+Number of comparisons --> 136
+Number of moves --> 270
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+
+*** ANALYZING IMPROVED BUBBLE SORT ***
+---> ARRAY IN RANDOM ORDER
+[ 40 90 93 54 30 65 79 33 82 6 14 12 99 6 18 97 88 ]
+Number of comparisons --> 112
+Number of moves --> 146
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN ASCENDING ORDER
+The array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+Number of comparisons --> 16
+Number of moves --> 0
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN DESCENDING ORDER
+The array is: 
+[ 99 97 93 90 88 82 79 65 54 40 33 30 18 14 12 6 6 ]
+Number of comparisons --> 136
+Number of moves --> 270
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+
+*** ANALYZING SHAKER IMPROVED BUBBLE SORT ***
+---> ARRAY IN RANDOM ORDER
+[ 40 90 93 54 30 65 79 33 82 6 14 12 99 6 18 97 88 ]
+Number of comparisons --> 106
+Number of moves --> 146
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN ASCENDING ORDER
+The array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+Number of comparisons --> 16
+Number of moves --> 0
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+---> ARRAY SORTED IN DESCENDING ORDER
+The array is: 
+[ 99 97 93 90 88 82 79 65 54 40 33 30 18 14 12 6 6 ]
+Number of comparisons --> 136
+Number of moves --> 270
+The sorted array is: 
+[ 6 6 12 14 18 30 33 40 54 65 79 82 88 90 93 97 99 ]
+****************DONE********************
+
+
+Process finished with exit code 0

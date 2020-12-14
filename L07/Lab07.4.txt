@@ -1,0 +1,114 @@
+Sean Blanchard
+3/12/2019
+LAB07
+Project 4 - CheckQuickSort.java
+
+------------------------------------------------------------------------------------------
+
+
+===> TEST array of size 1
+The original array is: 
+[38]
+The original array sorted with quickSort: 
+[38]
+  passes
+
+===> TEST array of size 2
+The original array is: 
+[38, 68]
+The original array sorted with quickSort: 
+[38, 68]
+  passes
+
+===> TEST array of size 3
+The original array is: 
+[38, 68, 11]
+The original array sorted with quickSort: 
+[11, 38, 68]
+  passes
+
+===> TEST array of size 4
+The original array is: 
+[38, 68, 11, 55]
+The original array sorted with quickSort: 
+[11, 38, 55, 68]
+  passes
+
+===> TEST array of size 5
+The original array is: 
+[38, 68, 11, 55, 33]
+The original array sorted with quickSort: 
+[11, 33, 38, 55, 68]
+  passes
+
+===> TEST array of size 6
+The original array is: 
+[38, 68, 11, 55, 33, 7]
+The original array sorted with quickSort: 
+[7, 11, 33, 38, 55, 68]
+  passes
+
+===> TEST array of size 7
+The original array is: 
+[38, 68, 11, 55, 33, 7, 40]
+The original array sorted with quickSort: 
+[7, 11, 33, 38, 40, 55, 68]
+  passes
+
+===> TEST array of size 8
+The original array is: 
+[38, 68, 11, 55, 33, 7, 40, 33]
+The original array sorted with quickSort: 
+[7, 11, 33, 33, 38, 40, 55, 68]
+  passes
+
+===> TEST array of size 9
+The original array is: 
+[38, 68, 11, 55, 33, 7, 40, 33, 93]
+The original array sorted with quickSort: 
+[7, 11, 33, 33, 38, 40, 55, 68, 93]
+  passes
+
+===> TEST array of size 39
+The original array is: 
+[38, 68, 11, 55, 33, 7, 40, 33, 93, 7, 14, 94, 87, 9, 62, 18, 94, 91, 28, 6, 25, 5, 81, 8, 57, 48, 21, 94, 54, 29, 8, 11, 36, 15, 79, 68, 74, 29, 92]
+The original array sorted with quickSort: 
+[5, 6, 7, 7, 8, 8, 9, 11, 11, 14, 15, 18, 21, 25, 28, 29, 29, 33, 33, 36, 38, 40, 48, 54, 55, 57, 62, 68, 68, 74, 79, 81, 87, 91, 92, 93, 94, 94, 94]
+  passes
+
+===> TEST array of size 40
+The original array is: 
+[38, 68, 11, 55, 33, 7, 40, 33, 93, 7, 14, 94, 87, 9, 62, 18, 94, 91, 28, 6, 25, 5, 81, 8, 57, 48, 21, 94, 54, 29, 8, 11, 36, 15, 79, 68, 74, 29, 92, 32]
+The original array sorted with quickSort: 
+[5, 6, 7, 7, 8, 8, 9, 11, 11, 14, 15, 18, 21, 25, 28, 29, 29, 32, 33, 33, 36, 38, 40, 48, 54, 55, 57, 62, 68, 68, 74, 79, 81, 87, 91, 92, 93, 94, 94, 94]
+  passes
+
+===> TEST array of size 41
+The original array is: 
+[38, 68, 11, 55, 33, 7, 40, 33, 93, 7, 14, 94, 87, 9, 62, 18, 94, 91, 28, 6, 25, 5, 81, 8, 57, 48, 21, 94, 54, 29, 8, 11, 36, 15, 79, 68, 74, 29, 92, 32, 42]
+The original array sorted with quickSort: 
+[5, 6, 7, 7, 8, 8, 9, 11, 11, 14, 15, 25, 18, 21, 28, 29, 29, 32, 33, 33, 36, 38, 40, 42, 48, 54, 55, 57, 62, 68, 68, 74, 79, 81, 87, 91, 92, 93, 94, 94, 94]
+   fails
+
+===> TEST array of size 50
+The original array is: 
+[38, 68, 11, 55, 33, 7, 40, 33, 93, 7, 14, 94, 87, 9, 62, 18, 94, 91, 28, 6, 25, 5, 81, 8, 57, 48, 21, 94, 54, 29, 8, 11, 36, 15, 79, 68, 74, 29, 92, 32, 42, 23, 14, 67, 96, 0, 44, 94, 29, 38]
+The original array sorted with quickSort: 
+[0, 5, 6, 7, 7, 8, 8, 9, 11, 11, 14, 14, 15, 18, 21, 23, 25, 28, 29, 29, 29, 32, 33, 33, 36, 38, 38, 40, 42, 44, 48, 54, 55, 57, 62, 67, 68, 68, 74, 79, 81, 87, 91, 92, 93, 94, 94, 94, 94, 96]
+  passes
+
+===> TEST array of size 72
+The original array is: 
+[38, 68, 11, 55, 33, 7, 40, 33, 93, 7, 14, 94, 87, 9, 62, 18, 94, 91, 28, 6, 25, 5, 81, 8, 57, 48, 21, 94, 54, 29, 8, 11, 36, 15, 79, 68, 74, 29, 92, 32, 42, 23, 14, 67, 96, 0, 44, 94, 29, 38, 85, 16, 30, 4, 11, 19, 9, 36, 69, 5, 73, 77, 65, 72, 73, 74, 46, 41, 7, 37, 43, 72]
+The original array sorted with quickSort: 
+[0, 4, 5, 5, 6, 7, 7, 7, 8, 8, 9, 9, 11, 11, 11, 14, 14, 15, 16, 18, 19, 21, 23, 25, 28, 29, 29, 29, 30, 32, 33, 33, 36, 36, 37, 38, 38, 40, 41, 42, 43, 44, 46, 48, 54, 55, 57, 62, 65, 67, 68, 68, 69, 72, 72, 73, 73, 74, 74, 77, 79, 81, 85, 87, 91, 92, 93, 94, 94, 94, 94, 96]
+  passes
+
+===> TEST array of size 100
+The original array is: 
+[38, 68, 11, 55, 33, 7, 40, 33, 93, 7, 14, 94, 87, 9, 62, 18, 94, 91, 28, 6, 25, 5, 81, 8, 57, 48, 21, 94, 54, 29, 8, 11, 36, 15, 79, 68, 74, 29, 92, 32, 42, 23, 14, 67, 96, 0, 44, 94, 29, 38, 85, 16, 30, 4, 11, 19, 9, 36, 69, 5, 73, 77, 65, 72, 73, 74, 46, 41, 7, 37, 43, 72, 79, 92, 47, 18, 58, 50, 94, 1, 54, 4, 81, 41, 67, 78, 69, 12, 5, 76, 32, 55, 13, 66, 73, 41, 66, 27, 63, 66]
+The original array sorted with quickSort: 
+[0, 1, 4, 4, 5, 5, 5, 6, 7, 7, 7, 8, 8, 9, 9, 11, 11, 11, 12, 13, 14, 14, 15, 16, 18, 18, 19, 21, 23, 25, 27, 28, 29, 29, 29, 30, 32, 32, 33, 33, 36, 36, 37, 38, 38, 40, 41, 41, 41, 42, 43, 44, 46, 47, 48, 50, 54, 54, 55, 55, 57, 58, 62, 63, 65, 66, 66, 66, 67, 67, 68, 68, 69, 69, 72, 72, 73, 73, 73, 74, 74, 76, 77, 78, 79, 79, 81, 81, 85, 87, 91, 92, 92, 93, 94, 94, 94, 94, 94, 96]
+  passes
+
+Process finished with exit code 0

@@ -1,0 +1,35 @@
+Sean Blanchard
+3/5/2019
+Lab06
+ChainSort.java
+
+---------------------------------------------------------------------------------------------------------------
+
+What size chain should be used?
+   It should be an integer value greater than or equal to 1.
+7
+What seed value should be used?
+   It should be an integer value greater than or equal to 1.
+11
+
+Original Chain Content: 40 7 33 55 11 68 38 
+
+Sorted Chain Content: 40 7 33 55 11 68 38 
+
+Process finished with exit code 0
+
+--------------------------------------------------------------------------------------
+
+
+What size chain should be used?
+   It should be an integer value greater than or equal to 1.
+15
+What seed value should be used?
+   It should be an integer value greater than or equal to 1.
+101
+
+Original Chain Content: 18 6 99 12 14 6 82 33 79 65 30 54 93 90 40 
+
+Sorted Chain Content: 18 6 99 12 14 6 82 33 79 65 30 54 93 90 40 
+
+Process finished with exit code 0

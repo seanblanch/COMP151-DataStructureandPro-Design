@@ -1,0 +1,63 @@
+Sean Blanchard
+3/26/2019
+COMP151
+Project 8 - Lab 1 DropoutStack
+
+----------------------------------------------------------------------------------
+
+**************  TESTING DROPOUT STACK  **************
+
+---->  Adding 20 items to empty stack of capacity of 20
+---->  The content of the stack is:
+[19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+----> The top of the stack is: 19
+
+----> Adding 5 more items to full stack
+push 20
+push 21
+push 22
+push 23
+push 24
+---->  The content of the stack is:
+[24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+----> The top of the stack is: 24
+
+---->  Removing all elements from the stack:
+----> pop 24
+----> pop 23
+----> pop 22
+----> pop 21
+----> pop 20
+----> pop 19
+----> pop 18
+----> pop 17
+----> pop 16
+----> pop 15
+----> pop 14
+----> pop 13
+----> pop 12
+----> pop 11
+----> pop 10
+----> pop 9
+----> pop 8
+----> pop 7
+----> pop 6
+----> pop 5
+The stack is empty
+----> The top of the stack is: null
+
+----> Trying to pop from the empty stack
+----> Got back null
+
+----> Trying to peek at the top of the empty stack
+----> Got back null
+
+----> Adding 22 items to empty stack of capacity of 20
+---->  The content of the stack is:
+[21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+
+---->  Clearing the stack with the clear method
+---->  The content of the stack is:
+The stack is empty
+
+Process finished with exit code 0
