@@ -1,0 +1,133 @@
+Sean Blanchard
+4/16/2019
+COMP 151
+Lab 11 Program 1 - SetDictionary
+--------------------------------------------------------------------------------------------------------------------------------
+CREATING set1
+--> set1 has 5 items: 
+[-1, 0, 1, 2, 3]
+
+--> contains for -1 yields true
+--> contains for -2 yields false
+--> contains for 3 yields true
+--> contains for 4 yields false
+
+--> Added 1 again to the set1, should be the same
+--> set1 has 5 items: 
+[-1, 0, 1, 2, 3]
+
+--> Iterating over set1 utilizing getIterator method
+	-1
+	0
+	1
+	2
+	3
+--> Iterating over set1 utilizing iterator method
+	-1
+	0
+	1
+	2
+	3
+--> Iterating over set1 utilizing forEach lambda
+	 -1
+	 0
+	 1
+	 2
+	 3
+
+--> Removing -1 20 3 from set1:
+---> -1 was removed - CORRECT
+---> 20 was not removed - CORRECT
+---> 3 was removed - CORRECT
+--> Should just have 0 1 and 2 now
+--> set1 has 3 items: 
+[0, 1, 2]
+
+CREATING set2
+--> set2 has 6 items: 
+[-1, 1, 2, 3, 5, 8]
+
+set1 and set2 are NOT the same - CORRECT
+
+CREATING UNION OF set1 and set2
+--> The union of set1 and set2 has 7 items: [-1, 0, 1, 2, 3, 5, 8]
+
+--> set1 should be unchanged
+--> set1 has 3 items: 
+[0, 1, 2]
+
+--> set2 should be unchanged
+--> set2 has 6 items: 
+[-1, 1, 2, 3, 5, 8]
+
+CREATING UNION OF set1 and set1
+--> The union of set1 and set1 has 3 items: [0, 1, 2]
+
+set1 and testUnion are the same - CORRECT
+
+CREATING INTERSECTION OF set1 and set2
+Finished creating intersection.
+--> The intersection of set1 and set2 has 2 items: [1, 2]
+
+--> set1 should be unchanged
+--> set1 has 3 items: 
+[0, 1, 2]
+
+--> set2 should be unchanged
+--> set2 has 6 items: 
+[-1, 1, 2, 3, 5, 8]
+
+CREATING INTERSECTION OF set2 and set1
+Finished creating intersection.
+--> The intersection of set2 and set1 has 2 items: [1, 2]
+
+--> set1 should be unchanged
+--> set1 has 3 items: 
+[0, 1, 2]
+
+--> set2 should be unchanged
+--> set2 has 6 items: 
+[-1, 1, 2, 3, 5, 8]
+
+CREATING INTERSECTION OF set2 and set2
+Finished creating intersection.
+--> The intersection of set2 and set2 has 6 items: [-1, 1, 2, 3, 5, 8]
+
+--> set1 should be unchanged
+--> set1 has 3 items: 
+[0, 1, 2]
+
+--> set2 should be unchanged
+--> set2 has 6 items: 
+[-1, 1, 2, 3, 5, 8]
+
+set2 and testIntersection are the same - CORRECT
+
+CREATING INTERSECTION OF testUnion and set2
+Finished creating intersection.
+--> The intersection of testUnion and set2 has 2 items: [1, 2]
+
+--> testUnion should be unchanged
+--> testUnion has 3 items: 
+[0, 1, 2]
+
+--> set2 should be unchanged
+--> set2 has 6 items: 
+[-1, 1, 2, 3, 5, 8]
+
+set2 and testIntersection are NOT the same - CORRECT
+
+CREATING set3
+--> set3 has 7 items: 
+[-1, 0, 2, 5, 7, 9, 11]
+
+CREATING set4
+--> set4 has 6 items: 
+[1, 2, 3, 4, 5, 9]
+
+CREATING INTERSECTION OF set3 and set4
+Finished creating intersection.
+--> The intersection of set3 and set4 has 3 items: [2, 5, 9]
+
+
+Process finished with exit code 0

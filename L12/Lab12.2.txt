@@ -1,0 +1,25 @@
+Sean Blanchard
+4/23/2019
+COMP 151
+LAB 12.2 - CheckInventory
+----------------------------------------------------------------------------------------
+
+How many CarIDs to generate?
+5
+The size of hash table is: 5
+null
+null
+null
+null
+null
+
+
+*** Checking if "sortedFile.txt" and "randomFile.txt" have the same elements ***
+--> the elements in files "randomFile.txt" and "sortedFile.txt are NOT the same
+
+*** Checking if "sortedFile.txt" and "corruptedFile.txt" have the same elements ***
+--> the elements in files "corruptedFile.txt" and "sortedFile.txt are NOT the same
+
+Bye!
+
+Process finished with exit code 0
