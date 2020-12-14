@@ -1,0 +1,35 @@
+Name: Sean Blanchard
+Class : COMP 151 - 3pm
+Lab01 Project 3
+
+
+How many coins/bills can fit in your piggy bank?
+10
+How many coins/bills should the computer put in your piggy bank?
+60
+How many rounds should we play?
+4
+
+How many coins/bills can fit in your piggy bank?
+10
+How many coins/bills should the computer put in your piggy bank?
+6
+How many rounds should we play?
+4
+
+******* Round #1 --> COMPUTER'S TURN *******
+
+******* Round #2 --> USER'S TURN *******
+
+******* Round #3 --> COMPUTER'S TURN *******
+
+******* Round #4 --> USER'S TURN *******
+
+***GAME OVER***
+
+computerHeadsCount = 0
+userHeadsCount = 0
+
+It's a tie!!!
+
+Process finished with exit code 0

@@ -1,0 +1,169 @@
+Name: Sean Blanchard
+Class : COMP 151 - 3pm
+Lab01 Project 2
+What is the initial string?
+HYDRA
+
+*** Removing balls from the hydraHeads ***
+
+--> Removed "HYDRA"
+After adding two, the Hydra has 2heads
+[YDRA, YDRA]
+
+The Hydra is no more!!!!
+--> Removed "YDRA"
+After adding two, the Hydra has 3heads
+[YDRA, DRA, DRA]
+
+The Hydra is no more!!!!
+--> Removed "DRA"
+After adding two, the Hydra has 4heads
+[YDRA, DRA, RA, RA]
+
+The Hydra is no more!!!!
+--> Removed "RA"
+After adding two, the Hydra has 5heads
+[YDRA, DRA, RA, A, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 4 heads remaining
+[YDRA, DRA, RA, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[YDRA, DRA, RA]
+
+The Hydra is no more!!!!
+--> Removed "RA"
+After adding two, the Hydra has 4heads
+[YDRA, DRA, A, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[YDRA, DRA, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[YDRA, DRA]
+
+The Hydra is no more!!!!
+--> Removed "DRA"
+After adding two, the Hydra has 3heads
+[YDRA, RA, RA]
+
+The Hydra is no more!!!!
+--> Removed "RA"
+After adding two, the Hydra has 4heads
+[YDRA, RA, A, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[YDRA, RA, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[YDRA, RA]
+
+The Hydra is no more!!!!
+--> Removed "RA"
+After adding two, the Hydra has 3heads
+[YDRA, A, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[YDRA, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[YDRA]
+
+The Hydra is no more!!!!
+--> Removed "YDRA"
+After adding two, the Hydra has 2heads
+[DRA, DRA]
+
+The Hydra is no more!!!!
+--> Removed "DRA"
+After adding two, the Hydra has 3heads
+[DRA, RA, RA]
+
+The Hydra is no more!!!!
+--> Removed "RA"
+After adding two, the Hydra has 4heads
+[DRA, RA, A, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[DRA, RA, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[DRA, RA]
+
+The Hydra is no more!!!!
+--> Removed "RA"
+After adding two, the Hydra has 3heads
+[DRA, A, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[DRA, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[DRA]
+
+The Hydra is no more!!!!
+--> Removed "DRA"
+After adding two, the Hydra has 2heads
+[RA, RA]
+
+The Hydra is no more!!!!
+--> Removed "RA"
+After adding two, the Hydra has 3heads
+[RA, A, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[RA, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[RA]
+
+The Hydra is no more!!!!
+--> Removed "RA"
+After adding two, the Hydra has 2heads
+[A, A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[A]
+
+The Hydra is no more!!!!
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 0 heads remaining
+[]
+
+The Hydra is no more!!!!
+
+The hydraHeads is empty!!!
+
+The time required was 4 milliseconds
+
+Process finished with exit code 0
