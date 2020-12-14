@@ -1,0 +1,63 @@
+Sean Blanchard
+4/30/2019
+COMP151
+Lab13 - Program 1 - Morse Code
+-----------------------------------------------------------------------------------------------------------------------
+The Morse Code:
+===============
+e .
+t _
+i ..
+a ._
+n _.
+m __
+s ...
+u .._
+r ._.
+w .__
+d _..
+k _._
+g __.
+o ___
+h ....
+v ..._
+f .._.
+l ._..
+p .__.
+j .___
+b _...
+x _.._
+c _._.
+y _.__
+z __..
+q __._
+
+The Morse Code Tree in level order:
+  e t i a n m s u r w d k g o h v f l p j b x c y z q 
+
+
+
+The Morse Code Tree in pre-order:
+  e i s h v u f a r l w p j t n d b x k c y m g z q o 
+
+
+
+Please enter a message in Morse Code, use space as a separator. Press enter to stop.
+... ___ ...
+Decoding "... ___ ..."
+The decoded string is "sos"
+Please enter a message in Morse Code, use space as a separator. Press enter to stop.
+_._. ... .._ _._. ..
+Decoding "_._. ... .._ _._. .."
+The decoded string is "csuci"
+Please enter a message in Morse Code, use space as a separator. Press enter to stop.
+._.
+Decoding "._."
+The decoded string is "r"
+Please enter a message in Morse Code, use space as a separator. Press enter to stop.
+._._
+Decoding "._._"
+Not a morse pattern.
+The decoded string is ""
+Please enter a message in Morse Code, use space as a separator. Press enter to stop.
+stop

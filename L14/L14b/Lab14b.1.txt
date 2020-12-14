@@ -1,0 +1,92 @@
+Sean Blanchard
+5/14/2019
+COMP151
+Lab14b - Lab1 WhichRoadsCanBeClosed.java
+----------------------------------------------------------------------------------
+How many nodes in your graph?
+10
+Probability of edge? (type 70 for 70%)
+50
+***** GENERATED GRAPH *****
+     [ 1][ 2][ 3][ 4][ 5][ 6][ 7][ 8][ 9][10]
+[ 1]       1           6       3   5  10   9
+[ 2]   1       7   9       9   6   1   4   6
+[ 3]       7   5  10   6       8   4   8    
+[ 4]       9  10       9   6   5   8   7    
+[ 5]   6       6   9   4       5   3   3   1
+[ 6]       9       6       5   5   2   4    
+[ 7]   3   6   8   5   5   5   4   9   8   9
+[ 8]   5   1   4   8   3   2   9   4   3   9
+[ 9]  10   4   8   7   3   4   8   3       4
+[10]   9   6           1       9   9   4    
+
+The graph has cycles.
+row= 1; col= 2; smallest= 1
+row= 1; col= 5; smallest= 6
+row= 1; col= 7; smallest= 3
+row= 2; col= 8; smallest= 1
+row= 1; col= 5; smallest= 6
+row= 1; col= 7; smallest= 3
+row= 5; col= 10; smallest= 1
+row= 1; col= 5; smallest= 6
+row= 1; col= 7; smallest= 3
+row= 8; col= 6; smallest= 2
+row= 1; col= 5; smallest= 6
+row= 1; col= 7; smallest= 3
+row= 1; col= 5; smallest= 6
+row= 2; col= 9; smallest= 4
+row= 5; col= 9; smallest= 3
+row= 1; col= 5; smallest= 6
+row= 3; col= 3; smallest= 5
+row= 5; col= 5; smallest= 4
+row= 8; col= 5; smallest= 3
+row= 2; col= 3; smallest= 7
+row= 3; col= 3; smallest= 5
+row= 8; col= 3; smallest= 4
+row= 2; col= 4; smallest= 9
+row= 6; col= 4; smallest= 6
+row= 7; col= 4; smallest= 5
+
+
+***** Computed MINIMUM SPANNING TREE for the above graph *****
+     [ 1][ 2][ 3][ 4][ 5][ 6][ 7][ 8][ 9][10]
+[ 1]       1                   3            
+[ 2]   1                           1        
+[ 3]                               4        
+[ 4]                           5            
+[ 5]                               3   3   1
+[ 6]                               2        
+[ 7]   3           5                        
+[ 8]       1   4       3   2                
+[ 9]                   3                    
+[10]                   1                    
+
+The following roads can be closed:
+
+The minimum spanning tree has cycles.
+
+
+***** Computed MINIMUM SPANNING TREE in Level-order *****
+
+Process finished with exit code 0
+
+-----------------------------------------------------------------------------------------------------
+How many nodes in your graph?
+8
+Probability of edge? (type 70 for 70%)
+25
+***** GENERATED GRAPH *****
+     [ 1][ 2][ 3][ 4][ 5][ 6][ 7][ 8]
+[ 1]                                
+[ 2]           5   1   7   4   1    
+[ 3]       5       4   2   1        
+[ 4]       1   4   2   6   3        
+[ 5]       7   2   6                
+[ 6]       4   1   3           1    
+[ 7]       1               1       4
+[ 8]                           4    
+The graph is not connected, the minimum spanning tree will not be calculated
+
+Process finished with exit code 0
+
+

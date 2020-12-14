@@ -1,0 +1,72 @@
+Sean Blanchard
+5/7/2019
+Lab14a Part 1a - DirectedGraph - Part1aGraphDriver
+-------------------------------------------------------------------------------------------
+Testing the directed, weighted graph in Figure 28-18a.
+Graph has 9 vertices and 13 edges.
+
+Edges exist from the first vertex in each line to the other vertices in the line.
+(Edge weights are given; weights are zero for unweighted graphs):
+
+A -> B 2.0 D 5.0 E 4.0 
+B -> E 1.0 
+C -> B 3.0 
+D -> G 2.0 
+E -> F 3.0 H 6.0 
+F -> C 4.0 H 3.0 
+G -> H 1.0 
+H -> I 1.0 
+I -> F 1.0 
+
+Number of vertices = 9 (should be 9)
+Number of edges = 13 (should be 13)
+Edges are OK.
+
+
+Breadth-First Traversal beginning at vertex A: 
+A B D E G F H C I  <-- Calculated
+A B D E G F H C I  <-- Expected
+
+
+Depth-First Traversal beginning at vertex A: 
+A B E F C H I D G  <-- Calculated
+A B E F C H I D G  <-- Expected
+
+
+Finding the cheapest path in the graph in Figure 28-18a:
+
+The cheapest path from A to B is 
+A B 
+and has a cost of 2.0.
+
+The cheapest path from A to C is 
+A B E F C 
+and has a cost of 10.0.
+
+The cheapest path from A to D is 
+A D 
+and has a cost of 5.0.
+
+The cheapest path from A to E is 
+A B E 
+and has a cost of 3.0.
+
+The cheapest path from A to F is 
+A B E F 
+and has a cost of 6.0.
+
+The cheapest path from A to G is 
+A D G 
+and has a cost of 7.0.
+
+The cheapest path from A to H is 
+A D G H 
+and has a cost of 8.0.
+
+The cheapest path from A to I is 
+A D G H I 
+and has a cost of 9.0.
+
+Done
+
+Process finished with exit code 0

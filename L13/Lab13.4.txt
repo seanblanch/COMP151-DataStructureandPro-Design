@@ -1,0 +1,341 @@
+Sean Blanchard
+4/30/2019
+COMP151
+Lab13 - Program 4 - EncodeApplication
+----------------------------------------------------------------------------------------------------------------------
+The message lines are:
+Jill Dill
+
+Count of character   is 1
+Count of character D is 1
+Count of character J is 1
+Count of character i is 2
+Count of character l is 4
+Creating 5 initial trees
+Building Huffman Tree
+--->Smallest tree moved to the position 4
+--->Second smallest tree moved to the position 3
+Combined create Tree [ , D] -> 2
+Position of combined tree 3
+--->Combined tree added at position 3
+--->Smallest tree moved to the position 3
+--->Second smallest tree moved to the position 2
+Combined create Tree [J, i] -> 3
+Position of combined tree 2
+--->Combined tree added at position 2
+--->Smallest tree moved to the position 2
+--->Second smallest tree moved to the position 1
+Combined create Tree [ , D, J, i] -> 5
+Position of combined tree 1
+--->Combined tree added at position 1
+--->Smallest tree moved to the position 1
+--->Second smallest tree moved to the position 0
+Combined create Tree [l,  , D, J, i] -> 9
+Position of combined tree 0
+--->Combined tree added at position 0
+
+Huffman Tree:
+[l,  , D, J, i] -> 9
+[l] -> 4
+[ , D, J, i] -> 5
+[ , D] -> 2
+[ ] -> 1
+[D] -> 1
+[J, i] -> 3
+[J] -> 1
+[i] -> 2
+
+The coded lines are (displaying 80 characters per line):
+110 111 0 0 100 101 111 0 0 
+
+
+Process finished with exit code 0
+
+-------------------------------------------------
+
+The message lines are:
+ABRACADABRA
+ABBA
+
+Count of character A is 7
+Count of character B is 4
+Count of character C is 1
+Count of character D is 1
+Count of character R is 2
+Creating 5 initial trees
+Building Huffman Tree
+--->Smallest tree moved to the position 4
+--->Second smallest tree moved to the position 3
+Combined create Tree [C, D] -> 2
+Position of combined tree 3
+--->Combined tree added at position 3
+--->Smallest tree moved to the position 3
+--->Second smallest tree moved to the position 2
+Combined create Tree [R, C, D] -> 4
+Position of combined tree 2
+--->Combined tree added at position 2
+--->Smallest tree moved to the position 2
+--->Second smallest tree moved to the position 1
+Combined create Tree [B, R, C, D] -> 8
+Position of combined tree 1
+--->Combined tree added at position 1
+--->Smallest tree moved to the position 1
+--->Second smallest tree moved to the position 0
+Combined create Tree [A, B, R, C, D] -> 15
+Position of combined tree 0
+--->Combined tree added at position 0
+
+Huffman Tree:
+[A, B, R, C, D] -> 15
+[A] -> 7
+[B, R, C, D] -> 8
+[B] -> 4
+[R, C, D] -> 4
+[R] -> 2
+[C, D] -> 2
+[C] -> 1
+[D] -> 1
+
+The coded lines are (displaying 80 characters per line):
+0 10 110 0 1110 0 1111 0 10 110 0 0 10 10 0 
+
+
+Process finished with exit code 0
+
+-------------------------------------
+
+The message lines are:
+this is an example of a huffman tree
+
+Count of character   is 7
+Count of character a is 4
+Count of character e is 4
+Count of character f is 3
+Count of character h is 2
+Count of character i is 2
+Count of character l is 1
+Count of character m is 2
+Count of character n is 2
+Count of character o is 1
+Count of character p is 1
+Count of character r is 1
+Count of character s is 2
+Count of character t is 2
+Count of character u is 1
+Count of character x is 1
+Creating 16 initial trees
+Building Huffman Tree
+--->Smallest tree moved to the position 15
+--->Second smallest tree moved to the position 14
+Combined create Tree [l, x] -> 2
+Position of combined tree 14
+--->Combined tree added at position 14
+--->Smallest tree moved to the position 14
+--->Second smallest tree moved to the position 13
+Combined create Tree [u, o] -> 2
+Position of combined tree 13
+--->Combined tree added at position 13
+--->Smallest tree moved to the position 13
+--->Second smallest tree moved to the position 12
+Combined create Tree [p, r] -> 2
+Position of combined tree 12
+--->Combined tree added at position 12
+--->Smallest tree moved to the position 12
+--->Second smallest tree moved to the position 11
+Combined create Tree [h, p, r] -> 4
+Position of combined tree 11
+--->Combined tree added at position 11
+--->Smallest tree moved to the position 11
+--->Second smallest tree moved to the position 10
+Combined create Tree [s, i] -> 4
+Position of combined tree 10
+--->Combined tree added at position 10
+--->Smallest tree moved to the position 10
+--->Second smallest tree moved to the position 9
+Combined create Tree [u, o, l, x] -> 4
+Position of combined tree 9
+--->Combined tree added at position 9
+--->Smallest tree moved to the position 9
+--->Second smallest tree moved to the position 8
+Combined create Tree [t, m] -> 4
+Position of combined tree 8
+--->Combined tree added at position 8
+--->Smallest tree moved to the position 8
+--->Second smallest tree moved to the position 7
+Combined create Tree [n, f] -> 5
+Position of combined tree 7
+--->Combined tree added at position 7
+--->Smallest tree moved to the position 7
+--->Second smallest tree moved to the position 6
+Combined create Tree [a, e] -> 8
+Position of combined tree 6
+--->Combined tree added at position 6
+--->Smallest tree moved to the position 6
+--->Second smallest tree moved to the position 5
+Combined create Tree [u, o, l, x, t, m] -> 8
+Position of combined tree 5
+--->Combined tree added at position 5
+--->Smallest tree moved to the position 5
+--->Second smallest tree moved to the position 4
+Combined create Tree [s, i, h, p, r] -> 8
+Position of combined tree 4
+--->Combined tree added at position 4
+--->Smallest tree moved to the position 4
+--->Second smallest tree moved to the position 3
+Combined create Tree [n, f,  ] -> 12
+Position of combined tree 3
+--->Combined tree added at position 3
+--->Smallest tree moved to the position 3
+--->Second smallest tree moved to the position 2
+Combined create Tree [u, o, l, x, t, m, s, i, h, p, r] -> 16
+Position of combined tree 2
+--->Combined tree added at position 2
+--->Smallest tree moved to the position 2
+--->Second smallest tree moved to the position 1
+Combined create Tree [a, e, n, f,  ] -> 20
+Position of combined tree 1
+--->Combined tree added at position 1
+--->Smallest tree moved to the position 1
+--->Second smallest tree moved to the position 0
+Combined create Tree [u, o, l, x, t, m, s, i, h, p, r, a, e, n, f,  ] -> 36
+Position of combined tree 0
+--->Combined tree added at position 0
+
+Huffman Tree:
+[u, o, l, x, t, m, s, i, h, p, r, a, e, n, f,  ] -> 36
+[u, o, l, x, t, m, s, i, h, p, r] -> 16
+[u, o, l, x, t, m] -> 8
+[u, o, l, x] -> 4
+[u, o] -> 2
+[u] -> 1
+[o] -> 1
+[l, x] -> 2
+[l] -> 1
+[x] -> 1
+[t, m] -> 4
+[t] -> 2
+[m] -> 2
+[s, i, h, p, r] -> 8
+[s, i] -> 4
+[s] -> 2
+[i] -> 2
+[h, p, r] -> 4
+[h] -> 2
+[p, r] -> 2
+[p] -> 1
+[r] -> 1
+[a, e, n, f,  ] -> 20
+[a, e] -> 8
+[a] -> 4
+[e] -> 4
+[n, f,  ] -> 12
+[n, f] -> 5
+[n] -> 2
+[f] -> 3
+[ ] -> 7
+
+The coded lines are (displaying 80 characters per line):
+0010 0110 0101 0100 111 0101 0100 111 100 1100 111 101 00011 100 0011 01110 0001
+0 101 111 00001 1101 111 100 111 0110 00000 1101 1101 0011 100 1100 111 0010 011
+11 101 101 
+
+
+Process finished with exit code 0
+
+-------------------------------
+
+The message lines are:
+Sean Blanchard
+
+Count of character   is 1
+Count of character B is 1
+Count of character S is 1
+Count of character a is 3
+Count of character c is 1
+Count of character d is 1
+Count of character e is 1
+Count of character h is 1
+Count of character l is 1
+Count of character n is 2
+Count of character r is 1
+Creating 11 initial trees
+Building Huffman Tree
+--->Smallest tree moved to the position 10
+--->Second smallest tree moved to the position 9
+Combined create Tree [ , r] -> 2
+Position of combined tree 9
+--->Combined tree added at position 9
+--->Smallest tree moved to the position 9
+--->Second smallest tree moved to the position 8
+Combined create Tree [B, S] -> 2
+Position of combined tree 8
+--->Combined tree added at position 8
+--->Smallest tree moved to the position 8
+--->Second smallest tree moved to the position 7
+Combined create Tree [l, c] -> 2
+Position of combined tree 7
+--->Combined tree added at position 7
+--->Smallest tree moved to the position 7
+--->Second smallest tree moved to the position 6
+Combined create Tree [h, d] -> 2
+Position of combined tree 6
+--->Combined tree added at position 6
+--->Smallest tree moved to the position 6
+--->Second smallest tree moved to the position 5
+Combined create Tree [e, n] -> 3
+Position of combined tree 5
+--->Combined tree added at position 5
+--->Smallest tree moved to the position 5
+--->Second smallest tree moved to the position 4
+Combined create Tree [h, d,  , r] -> 4
+Position of combined tree 4
+--->Combined tree added at position 4
+--->Smallest tree moved to the position 4
+--->Second smallest tree moved to the position 3
+Combined create Tree [l, c, B, S] -> 4
+Position of combined tree 3
+--->Combined tree added at position 3
+--->Smallest tree moved to the position 3
+--->Second smallest tree moved to the position 2
+Combined create Tree [e, n, a] -> 6
+Position of combined tree 2
+--->Combined tree added at position 2
+--->Smallest tree moved to the position 2
+--->Second smallest tree moved to the position 1
+Combined create Tree [l, c, B, S, h, d,  , r] -> 8
+Position of combined tree 1
+--->Combined tree added at position 1
+--->Smallest tree moved to the position 1
+--->Second smallest tree moved to the position 0
+Combined create Tree [e, n, a, l, c, B, S, h, d,  , r] -> 14
+Position of combined tree 0
+--->Combined tree added at position 0
+
+Huffman Tree:
+[e, n, a, l, c, B, S, h, d,  , r] -> 14
+[e, n, a] -> 6
+[e, n] -> 3
+[e] -> 1
+[n] -> 2
+[a] -> 3
+[l, c, B, S, h, d,  , r] -> 8
+[l, c, B, S] -> 4
+[l, c] -> 2
+[l] -> 1
+[c] -> 1
+[B, S] -> 2
+[B] -> 1
+[S] -> 1
+[h, d,  , r] -> 4
+[h, d] -> 2
+[h] -> 1
+[d] -> 1
+[ , r] -> 2
+[ ] -> 1
+[r] -> 1
+
+The coded lines are (displaying 80 characters per line):
+1011 000 01 001 1110 1010 1000 01 001 1001 1100 01 1111 1101 
+
+
+Process finished with exit code 0

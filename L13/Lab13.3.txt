@@ -1,0 +1,304 @@
+Sean Blanchard
+4/30/2019
+COMP151
+Lab13 - Program 3 - WorkingWithBinaryTree
+----------------------------------------------------------------------------------------------------------------------
+
+Tree 1:
+
+     A      
+   /   \   
+  B     C   
+ / \   / \
+D   E  F  G 
+
+tree1 is BST = false -> CORRECT
+
+Tree 1a:
+
+     D      
+   /   \   
+  B     F   
+ / \   / \
+A   C  E  G 
+
+tree1a is BST = true -> CORRECT
+The smallest element = A
+The second largest element = F
+
+Tree 2:
+
+     A      
+   /   \   
+  B     C   
+   \   / \
+    E  F  G 
+
+tree2 is BST = false -> CORRECT
+
+Tree 2a:
+
+     C      
+   /   \   
+  A     F   
+   \   / \
+    B  E  G 
+
+tree2a is BST = true -> CORRECT
+The smallest element = A
+The second largest element = F
+
+Tree 3:
+
+     A      
+   /   \  
+  B     C  
+ / \   /  
+D   E  F   
+        \ 
+         G 
+
+tree3 is BST = false -> CORRECT
+
+Tree 3a:
+
+     D      
+   /   \  
+  B     G  
+ / \   /  
+A   C  E   
+        \ 
+         F 
+
+tree3a is BST = true -> CORRECT
+The smallest element = A
+The second largest element = F
+
+Tree 4:
+
+     A      
+   /   \   
+  B     C   
+ / \   / \
+D   E  F  G 
+ \         
+  H         
+
+tree4 is BST = false -> CORRECT
+
+Tree 4a:
+
+     E      
+   /   \   
+  C     G   
+ / \   / \
+A   D  F  H 
+ \         
+  B         
+
+tree4a is BST = true -> CORRECT
+The smallest element = A
+The second largest element = G
+
+Tree 5:
+
+     A      
+   /   \   
+  B     C   
+ / \   / \
+D   E  F  G 
+     \     
+      H     
+
+tree5 is BST = false -> CORRECT
+
+Tree 5a:
+
+     E      
+   /   \   
+  B     G   
+ / \   / \
+A   C  F  H 
+     \     
+      D     
+
+tree5a is BST = true -> CORRECT
+The smallest element = A
+The second largest element = G
+
+Tree 6:
+
+     A      
+   /   \   
+  B     C   
+ / \     \
+D   E     H 
+   / \     
+  F   G     
+
+tree6 is BST = false -> CORRECT
+
+Tree 6a:
+
+     F      
+   /   \   
+  B     G   
+ / \     \
+A   D     H 
+   / \     
+  C   E     
+
+tree6a is BST = true -> CORRECT
+The smallest element = A
+The second largest element = G
+
+Tree 7:
+
+      G      
+       \     
+        B     
+         \  
+          E   
+           \
+            A 
+
+tree7 is BST = false -> CORRECT
+
+Tree 7a:
+
+      A      
+       \     
+        B     
+         \  
+          E   
+           \
+            G 
+
+tree7a is BST = true -> CORRECT
+The smallest element = A
+The second largest element = E
+
+Tree 8a:
+
+     D      
+   /   \   
+  B     F   
+
+tree8a is BST = true -> CORRECT
+The smallest element = B
+The second largest element = D
+
+Tree 9a:
+
+     D      
+   /        
+  B         
+
+tree9a is BST = true -> CORRECT
+The smallest element = B
+The second largest element = B
+
+Tree 10a:
+
+     D      
+   /        
+  B         
+
+tree10a is BST = true -> CORRECT
+The smallest element = B
+The second largest element = B
+
+Tree 11a:
+
+     D      
+
+tree11a is BST = true -> CORRECT
+The smallest element = D
+The second largest element = null
+
+Tree 12a:
+
+     B      
+   /   \   
+  A     D   
+       / \ 
+      C   E 
+
+tree12a is BST = true -> CORRECT
+The smallest element = A
+The second largest element = D
+
+Tree 12b:
+
+     B      
+   /   \   
+  A     C   
+         \ 
+          E 
+         /  
+        D   
+
+tree12b is BST = true -> CORRECT
+The smallest element = A
+The second largest element = D
+Are elements in tree12a and tree12b the same = true -> CORRECT
+
+Tree 12c:
+
+     B      
+   /   \   
+  A     C   
+         \ 
+          F 
+         /  
+        D   
+
+tree12c is BST = true -> CORRECT
+The smallest element = A
+The second largest element = D
+Are elements in tree12a and tree12c the same = true -> INCORRECT
+
+Tree 12d:
+
+      A         
+       \       
+        B       
+         \     
+          C     
+           \   
+            D   
+             \ 
+              E 
+
+tree12d is BST = true -> CORRECT
+The smallest element = A
+The second largest element = D
+Are elements in tree12a and tree12d the same = true -> CORRECT
+
+Tree 12e:
+
+        E 
+       /  
+      D   
+     /    
+    C     
+   /      
+  B       
+ /        
+A         
+
+tree12d is BST = true -> CORRECT
+The smallest element = A
+The second largest element = D
+Are elements in tree12a and tree12e the same = true -> CORRECT
+
+Working with tree built from the array: [A, B, C, D, E, F, G, H, I, J, K]
+The tree is BST = true
+The tree has 11 nodes and the height of 4
+The tree in level order: 
+
+F  <-- level 1
+I C  <-- level 1
+D A J G  <-- level 1
+H K B E  <-- level 1
+Process finished with exit code 0

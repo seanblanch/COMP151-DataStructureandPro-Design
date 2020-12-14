@@ -1,0 +1,73 @@
+Sean Blanchard
+5/7/2019
+Lab14a Part 1b - UndirectedGraph - Part1bGraphDriver
+-------------------------------------------------------------------------------------------
+Testing the undirected, weighted graph.
+Graph has 9 vertices and 13 edges.
+
+Edges exist from the first vertex in each line to the other vertices in the line.
+(Edge weights are given; weights are zero for unweighted graphs):
+
+A -> B 2.0 D 5.0 E 4.0 
+B -> A 2.0 E 1.0 C 3.0 
+C -> B 3.0 F 4.0 
+D -> A 5.0 G 2.0 
+E -> A 4.0 B 1.0 F 3.0 H 6.0 
+F -> E 3.0 C 4.0 H 3.0 I 1.0 
+G -> D 2.0 H 1.0 
+H -> E 6.0 F 3.0 G 1.0 I 1.0 
+I -> H 1.0 F 1.0 
+
+Number of vertices = 9 (should be 9)
+Number of edges = 13 (should be 13)
+Edges are OK.
+
+
+Breadth-First Traversal beginning at vertex A: 
+A B D E C G F H I  <-- Calculated
+A B D E C G F H I  <-- Expected
+
+
+Depth-First Traversal beginning at vertex A: 
+A B E F C H G D I  <-- Calculated
+A B E F C H G D I  <-- Expected
+
+
+Finding the cheapest path in the graph in Figure 28-18a:
+
+The cheapest path from A to B is 
+A B 
+and has a cost of 2.0.
+
+The cheapest path from A to C is 
+A B C 
+and has a cost of 5.0.
+
+The cheapest path from A to D is 
+A D 
+and has a cost of 5.0.
+
+The cheapest path from A to E is 
+A B E 
+and has a cost of 3.0.
+
+The cheapest path from A to F is 
+A B E F 
+and has a cost of 6.0.
+
+The cheapest path from A to G is 
+A D G 
+and has a cost of 7.0.
+
+The cheapest path from A to H is 
+A D G H 
+and has a cost of 8.0.
+
+The cheapest path from A to I is 
+A B E F I 
+and has a cost of 7.0.
+
+CORRECT UnsupportedOperationException thrown: "Topological sort illegal in an undirected graph."
+Done
+
+Process finished with exit code 0

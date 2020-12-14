@@ -1,0 +1,24 @@
+Sean Blanchard
+4/30/2019
+COMP151
+Lab13 - Program 2 - PostfixTree
+----------------------------------------------------------------------------------------------------------------------
+The first postfix expression is:
+ab*c+
+
+The inorder traversal is:
+a * b + c 
+
+The postorder traversal is:
+a b * c + 
+
+The second postfix expression is:
+ab-c*def-+g/+
+
+The inorder traversal is:
+a - b * c + d + e - f / g 
+
+The postorder traversal is:
+a b - c * d e f - + g / + 
+
+Process finished with exit code 0

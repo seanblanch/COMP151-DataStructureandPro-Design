@@ -1,0 +1,13 @@
+Sean Blanchard
+5/7/2019
+Lab14a Part 1c - UndirectedGraph - Part1cGraphDriver
+-------------------------------------------------------------------------------------------
+The graph in Figure 28-1
+without the edge joining Hyannis and Barnstable, and
+without the edge joining Orleans and Chatham is not connected:
+isConnected() returns false
+
+The original graph in Figure 28-1 with all of its edges is connected:
+isConnected() returns true
+
+Process finished with exit code 0
