@@ -1,0 +1,124 @@
+Sean Blanchard
+2/26/2019
+Lab05
+Assignment 4 - StringsOfNumbers
+
+Please enter an integer value of n representing the number of digits in a string
+3
+
+Generating binary-Strings:
+--> FOR DEBUGGING: At the start of the method: str is  and n is 3
+----> FOR DEBUGGING: About to call itself to append '0': str is  and n is 3
+--> FOR DEBUGGING: At the start of the method: str is 0 and n is 2
+----> FOR DEBUGGING: About to call itself to append '0': str is 0 and n is 2
+--> FOR DEBUGGING: At the start of the method: str is 00 and n is 1
+----> FOR DEBUGGING: About to call itself to append '0': str is 00 and n is 1
+--> FOR DEBUGGING: At the start of the method: str is 000 and n is 0
+---> FOR DEBUGGING: Executing base case
+000
+----> FOR DEBUGGING: About to call itself to append '1': str is 00 and n is 1
+--> FOR DEBUGGING: At the start of the method: str is 001 and n is 0
+---> FOR DEBUGGING: Executing base case
+001
+----> FOR DEBUGGING: About to call itself to append '1': str is 0 and n is 2
+--> FOR DEBUGGING: At the start of the method: str is 01 and n is 1
+----> FOR DEBUGGING: About to call itself to append '0': str is 01 and n is 1
+--> FOR DEBUGGING: At the start of the method: str is 010 and n is 0
+---> FOR DEBUGGING: Executing base case
+010
+----> FOR DEBUGGING: About to call itself to append '1': str is 01 and n is 1
+--> FOR DEBUGGING: At the start of the method: str is 011 and n is 0
+---> FOR DEBUGGING: Executing base case
+011
+----> FOR DEBUGGING: About to call itself to append '1': str is  and n is 3
+--> FOR DEBUGGING: At the start of the method: str is 1 and n is 2
+----> FOR DEBUGGING: About to call itself to append '0': str is 1 and n is 2
+--> FOR DEBUGGING: At the start of the method: str is 10 and n is 1
+----> FOR DEBUGGING: About to call itself to append '0': str is 10 and n is 1
+--> FOR DEBUGGING: At the start of the method: str is 100 and n is 0
+---> FOR DEBUGGING: Executing base case
+100
+----> FOR DEBUGGING: About to call itself to append '1': str is 10 and n is 1
+--> FOR DEBUGGING: At the start of the method: str is 101 and n is 0
+---> FOR DEBUGGING: Executing base case
+101
+----> FOR DEBUGGING: About to call itself to append '1': str is 1 and n is 2
+--> FOR DEBUGGING: At the start of the method: str is 11 and n is 1
+----> FOR DEBUGGING: About to call itself to append '0': str is 11 and n is 1
+--> FOR DEBUGGING: At the start of the method: str is 110 and n is 0
+---> FOR DEBUGGING: Executing base case
+110
+----> FOR DEBUGGING: About to call itself to append '1': str is 11 and n is 1
+--> FOR DEBUGGING: At the start of the method: str is 111 and n is 0
+---> FOR DEBUGGING: Executing base case
+111
+
+Please enter an integer value k; strings of length n will be drown from 0..k-1
+4
+Generating k-Strings:
+000
+001
+002
+003
+010
+011
+012
+013
+020
+021
+022
+023
+030
+031
+032
+033
+100
+101
+102
+103
+110
+111
+112
+113
+120
+121
+122
+123
+130
+131
+132
+133
+200
+201
+202
+203
+210
+211
+212
+213
+220
+221
+222
+223
+230
+231
+232
+233
+300
+301
+302
+303
+310
+311
+312
+313
+320
+321
+322
+323
+330
+331
+332
+333
+
+Process finished with exit code 0

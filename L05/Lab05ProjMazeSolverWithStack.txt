@@ -1,0 +1,82 @@
+Sean Blanchard
+2/26/2019
+Lab05
+Assignment 6 - MazeSolverWithStack
+
+
+        *** SEARCH THE MAZE ***
+      [ 0] [ 1] [ 2] [ 3] [ 4] [ 5] 
+[ 0]    .    #    #    #    #    #
+[ 1]    .    .    .    .    .    #
+[ 2]    #    .    #    #    #    #
+[ 3]    #    .    #    .    #    #
+[ 4]    .    .    .    #    .    .
+[ 5]    #    #    .    .    .    #
+Enter the START row
+0
+Enter the START column
+0
+Enter the GOAL row
+4
+Enter the GOAL column
+5
+      [ 0] [ 1] [ 2] [ 3] [ 4] [ 5] 
+[ 0]    S    #    #    #    #    #
+[ 1]    .    .    .    .    .    #
+[ 2]    #    .    #    #    #    #
+[ 3]    #    .    #    .    #    #
+[ 4]    .    .    .    #    .    G
+[ 5]    #    #    .    .    .    #
+
+---> The GOAL [4,5] was found!
+
+The search results:
+      [ 0] [ 1] [ 2] [ 3] [ 4] [ 5] 
+[ 0]    S    #    #    #    #    #
+[ 1]    +    +    .    .    .    #
+[ 2]    #    +    #    #    #    #
+[ 3]    #    +    #    .    #    #
+[ 4]    +    +    +    #    +    G
+[ 5]    #    #    +    +    +    #
+
+Process finished with exit code 0
+
+------------------------------------------
+
+
+        *** SEARCH THE MAZE ***
+      [ 0] [ 1] [ 2] [ 3] [ 4] [ 5] 
+[ 0]    .    #    #    #    #    #
+[ 1]    .    .    .    .    .    #
+[ 2]    #    .    #    #    #    #
+[ 3]    #    .    #    .    #    #
+[ 4]    .    .    .    #    .    .
+[ 5]    #    #    .    .    .    #
+Enter the START row
+1
+Enter the START column
+2
+Enter the GOAL row
+3
+Enter the GOAL column
+3
+      [ 0] [ 1] [ 2] [ 3] [ 4] [ 5] 
+[ 0]    .    #    #    #    #    #
+[ 1]    .    .    S    .    .    #
+[ 2]    #    .    #    #    #    #
+[ 3]    #    .    #    G    #    #
+[ 4]    .    .    .    #    .    .
+[ 5]    #    #    .    .    .    #
+
+---> The GOAL [3,3]  was not reached!
+
+The search results:
+      [ 0] [ 1] [ 2] [ 3] [ 4] [ 5] 
+[ 0]    +    #    #    #    #    #
+[ 1]    +    +    S    +    +    #
+[ 2]    #    +    #    #    #    #
+[ 3]    #    +    #    G    #    #
+[ 4]    +    +    +    #    +    +
+[ 5]    #    #    +    +    +    #
+
+Process finished with exit code 0

@@ -1,0 +1,36 @@
+Sean Blanchard
+2/26/2019
+Lab05
+Assignment 2 - BaseToDecimal
+
+TESTING TO SEE IF IT GETS THE CORRECT RESULTS IN BASE 10
+Trying a 1 digit integer in base 10
+    Passed test
+Trying a 1 digit negative integer in base 10
+    Passed test
+Trying a 3 digit positive integer in base 10
+    Passed test
+Trying a 3 digit negative integer in base 10
+    Passed test
+
+TESTING TO SEE IF IT GETS THE CORRECT RESULTS IN BASE 8
+Trying a 1 digit integer in base 8
+    Passed test
+Trying a 1 digit negative integer in base 8
+    Passed test
+Trying a 3 digit positive integer in base 8
+    Passed test
+Trying a 3 digit negative integer in base 8
+    Passed test
+
+TESTING TO SEE IF IT GETS THE CORRECT RESULTS IN BASE 2
+Trying a 1 digit integer in base 2
+    Passed test
+Trying a 1 digit integer in base 2
+    Passed test
+Trying a 3 digit integer in base 2
+    Passed test
+
+
+
+Process finished with exit code 0

@@ -1,0 +1,119 @@
+Sean Blanchard
+2/26/2019
+Lab05
+Assignment 3 - MinAndSumInArray
+
+TESTING TO SEE IF IT CATCHES BAD ARGUMENTS
+Trying a null array
+    Passed test
+Trying an array of size 0
+    Passed test
+Trying from less than 0
+    Passed test
+Trying to greater than size
+    Passed test
+Trying from > to
+    Passed test
+
+
+TESTING TO SEE IF IT GETS THE CORRECT RESULTS
+Trying an array of size 1: [4]
+the smallest value = 4
+    Passed test
+sum method1 = 4
+sum method2 = 4
+sum method3 = 4
+sum method4 = 4
+    Passed test
+
+Trying an array of size 2, the same elements: [2, 2]
+the smallest value = 2
+    Passed test
+sum method1 = 4
+sum method2 = 4
+sum method3 = 4
+sum method4 = 4
+    Passed test
+
+Trying an array of size 2, second is smallest: [3, 2]
+the smallest value = 2
+    Passed test
+sum method1 = 5
+sum method2 = 5
+sum method3 = 5
+sum method4 = 5
+    Passed test
+
+Trying an array of size 2, first is smallest: [3, 4]
+the smallest value = 3
+    Passed test
+sum method1 = 7
+sum method2 = 7
+sum method3 = 7
+sum method4 = 7
+    Passed test
+
+Trying an array of size 3, first is smallest: [3, 10, 4]
+the smallest value = 3
+    Passed test
+sum method1 = 17
+sum method2 = 17
+sum method3 = 17
+sum method4 = 17
+    Passed test
+
+Trying an array of size 3, second is smallest: [10, 4, 13]
+the smallest value = 4
+    Passed test
+sum method1 = 27
+sum method2 = 27
+sum method3 = 27
+sum method4 = 27
+    Passed test
+
+Trying an array of size 3, third is smallest: [10, 13, 4]
+the smallest value = 4
+    Passed test
+sum method1 = 27
+sum method2 = 27
+sum method3 = 27
+sum method4 = 27
+    Passed test
+
+Trying an array of size 20: [10, 113, 25, 10, 35, 14, 29, 13, 14, 110, 13, 17, 34, 83, 9, 32, 44, 12, 90, 2]
+--> Looking at all values - at indexes 0 ... 19
+the smallest value = 2
+    Passed test
+sum method1 = 709
+sum method2 = 709
+sum method3 = 709
+sum method4 = 709
+    Passed test
+--> Looking at first third - at indexes 0 ... 6
+the smallest value = 10
+    Passed test
+sum method1 = 236
+sum method2 = 236
+sum method3 = 236
+sum method4 = 236
+    Passed test
+--> Looking at second third - at indexes 7 ... 13
+the smallest value = 13
+    Passed test
+sum method1 = 284
+sum method2 = 284
+sum method3 = 284
+sum method4 = 284
+    Passed test
+--> Looking at last third excluding the last value - at indexes 13 ... 18
+the smallest value = 9
+    Passed test
+sum method1 = 270
+sum method2 = 270
+sum method3 = 270
+sum method4 = 270
+    Passed test
+
+
+
+Process finished with exit code 0

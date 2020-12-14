@@ -1,0 +1,38 @@
+Sean Blanchard
+2/19/2018
+Lab 4 Project 3
+
+*** Create a stack ***
+--> Add to stack to get: Joe Jane Jill Jess Jim
+
+Done adding 5 elements.
+
+--> Testing peek, peek2, and pop:
+Joe is at the top of the stack.
+Jane is just beneath the top of the stack.
+Joe is removed from the stack.
+
+Jane is at the top of the stack.
+Jill is just beneath the top of the stack.
+Jane is removed from the stack.
+
+Jill is at the top of the stack.
+Jess is just beneath the top of the stack.
+Jill is removed from the stack.
+
+Jess is at the top of the stack.
+Jim is just beneath the top of the stack.
+Jess is removed from the stack.
+
+Jim is at the top of the stack.
+ CORRECT - exception has been thrown: cannot complete peek2() - stack is empty
+Jim is removed from the stack.
+
+--> The stack should be empty: 
+isEmpty() returns true
+ CORRECT - exception has been thrown: cannot complete peek() - stack is empty
+ CORRECT - exception has been thrown: cannot complete peek() - stack is empty
+ CORRECT - exception has been thrown: cannot complete peek2() - stack is empty
+*** Done ***
+
+Process finished with exit code 0

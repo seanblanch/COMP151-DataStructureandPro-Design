@@ -1,0 +1,55 @@
+Sean Blanchard
+2/26/2019
+Lab05
+Project 1 - ResizableArrayBag
+
+
+***Testing getFrequencyOf method***
+Bag contains:
+There are 11 element(s): Y A B A C B A B A X Z 
+There are 4 of "A"
+There are 3 of "B"
+There are 1 of "C"
+There are 0 of "K"
+There are 1 of "X"
+There are 1 of "Y"
+There are 1 of "Z"
+
+***Testing isBagSorted method***
+There are 11 element(s): Y A B A C B A B A X Z 
+Bag is NOT sorted
+
+Changing the content of the bag
+There are 0 element(s): 
+Bag is NOT sorted
+
+Changing the content of the bag
+There are 1 element(s): X 
+Bag is sorted
+
+Changing the content of the bag
+There are 2 element(s): X Y 
+Bag is sorted
+
+Changing the content of the bag
+There are 2 element(s): Y X 
+Bag is sorted
+
+Changing the content of the bag
+There are 11 element(s): A B C D E F G H I J K 
+Bag is NOT sorted
+
+Changing the content of the bag
+There are 12 element(s): A B C D E F G H I J K D 
+Bag is NOT sorted
+
+Changing the content of the bag
+There are 11 element(s): D B C D E F G H I J K 
+Bag is NOT sorted
+
+Changing the content of the bag
+There are 11 element(s): L K J I H G F E D C B 
+Bag is NOT sorted
+
+
+Process finished with exit code 0

@@ -1,0 +1,153 @@
+Sean Blanchard
+2/19/2018
+Lab 4 Project 2
+
+*** Creating a stack with default constructor ***
+---> The stack capacity is set by the constructor to: 50
+---> The topIndex is: 50
+
+---> isEmpty() returns true
+CORRECT - the top index is set to 50
+
+---> Adding to stack to get: Joe Jane Jill Jess Jim
+---> Done adding 5 elements; the topIndex is: 45
+---> isEmpty() returns false
+
+--> Testing peek and pop:
+Joe is at the top of the stack.
+Joe is removed from the stack.
+Jane is at the top of the stack.
+Jane is removed from the stack.
+Jill is at the top of the stack.
+Jill is removed from the stack.
+Jess is at the top of the stack.
+Jess is removed from the stack.
+Jim is at the top of the stack.
+Jim is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+null is at the top of the stack.
+null is removed from the stack.
+--> The stack should be empty: 
+isEmpty() returns true
+
+--> Adding to stack to get: Jim Jess Joe
+---> Done adding 3 elements; the topIndex is: 97
+
+--> Testing clear:
+--> The stack should be empty: 
+isEmpty() returns true
+defaultStack.peek() returns: 
+ CORRECT - exception has been thrown: peek operation failed
+defaultStack.pop() returns: 
+ CORRECT - exception has been thrown: pop operation failed
+
+
+*** Creating a stack with the secondary constructor ***
+---> The stack capacity is set by the constructor to: 3
+---> The topIndex is: 50
+
+--> isEmpty() returns false
+
+--> Adding to stack to get: Joe Jane Jill Jess Jim
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 49
+	at ArrayStack.push(ArrayStack.java:43)
+	at ArrayStack.main(ArrayStack.java:211)
+
+Process finished with exit code 1

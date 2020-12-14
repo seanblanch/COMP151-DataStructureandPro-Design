@@ -1,0 +1,63 @@
+Sean Blanchard
+2/26/2019
+Lab05
+Assignment 1 - Linked Bag - NOT COMPLETE
+
+***Testing getFrequencyOf method***
+Bag1 contains:
+Z X A B A B C A B A Y 
+There are 11 element(s) in the bag.
+There are 0 of "A"
+There are 0 of "B"
+There are 0 of "C"
+There are 0 of "K"
+There are 0 of "X"
+There are 0 of "Y"
+There are 0 of "Z"
+
+***Testing isBagSorted method***
+Z X A B A B C A B A Y 
+There are 11 element(s) in the bag.
+Bag is  sorted
+
+Changing the content of the bag
+The bag is empty.
+Bag is sorted
+
+Changing the content of the bag
+X 
+There are 1 element(s) in the bag.
+Bag is sorted
+
+Changing the content of the bag
+Y X 
+There are 2 element(s) in the bag.
+Bag is sorted
+
+Changing the content of the bag
+X Y 
+There are 2 element(s) in the bag.
+Bag is sorted
+
+Changing the content of the bag
+Z A B C D E F G H I J K 
+There are 12 element(s) in the bag.
+Bag is sorted
+
+Changing the content of the bag
+A B C D E F G H I J K 
+There are 11 element(s) in the bag.
+Bag is sorted
+
+Changing the content of the bag
+B C D E F G H I J A 
+There are 10 element(s) in the bag.
+Bag is sorted
+
+Changing the content of the bag
+K J I H G F E D C B A 
+There are 11 element(s) in the bag.
+Bag is sorted
+
+
+Process finished with exit code 0

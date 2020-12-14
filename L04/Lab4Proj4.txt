@@ -1,0 +1,70 @@
+Sean Blanchard
+2/19/2018
+Lab 4 Project 4
+
+Converting infix expressions to postfix expressions:
+
+Infix:   a+b
+Postfix: ab+
+
+
+Infix:   (a + b) * c
+Postfix: ab+c*
+
+
+Infix:   a * b / (c - d)
+Postfix: ab*cd-/
+
+
+Infix:   a / b + (c - d)
+Postfix: ab/cd-+
+
+
+Infix:   a / b + c - d
+Postfix: ab/c+d-
+
+
+Infix:   a^b^c
+Postfix: ab^c^
+
+
+Infix:   (a^b)^c
+Postfix: ab^c^
+
+
+Infix:   a*(b/c+d)
+Postfix: abc/d+*
+
+
+Infix:   (a+b)/(c-d)
+Postfix: ab+cd-/
+
+
+Infix:   a/(b-c)*d
+Postfix: abc-/d*
+
+
+Infix:   a-(b/(c-d)*e+f)^g
+Postfix: abcd-/e*f+g^-
+
+
+Infix:   (a-b*c)/(d*e^f*g+h)
+Postfix: abc*-def^*g*h+/
+
+
+Evaluating postfix expressions with
+a = 2, b = 3, c = 4, d = 5, e = 6
+Assuming correct input!!!
+
+
+ae+bd-/ : -4.0
+
+abc*d*- : -58.0
+
+abc-/d* : -10.0
+
+ebca^*+d- : 49.0
+
+Done.
+
+Process finished with exit code 0
